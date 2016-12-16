@@ -8,7 +8,7 @@ Here is how to instantiate a public key:
 
 ```javascript
 
-var privateKey = new PrivateKey();
+var privateKey = new PrivateKey(5HpHagT65TZzG1PH3CSu63k8DbpvD8sKyMmEHJEAQmtBsP1NV9Q);
 
 // from a private key
 var publicKey = new PublicKey(privateKey);
